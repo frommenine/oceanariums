@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center;
+    align-items: center; */
+    max-width: 1920px;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    max-width: 1920px;
+    max-height: 1055px;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 14px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+section {
+    max-width: 1800px;
+}
+
+h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.bg {
+    margin: auto;
+    width: 1085px;
+    height: 723px;
+    max-width: 1085px;
+    max-height: 723px;
+    background-image: url(./30269ed39b544766a8f45427fc6221e0.png);
+    background-size: 100%;
+}
+
+.list {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.onbg {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 46px;
+    padding-left: 49px;
+    max-width: 770px;
+}
+
+.underbg {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 10%;
+    max-width: 770px;
+}
+
+img {
+    display: block;
+    width: 1310px;
+    max-width: 1310px;
+    margin: auto;
+}
+
+.bg2 {
+     margin: auto;
+     width: 1085px;
+     height: 723px;
+     max-width: 1085px;
+     max-height: 723px;
+     background-image: url(./thumbnail.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+.onbg2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 46px;
+    padding-left: 49px;
+    max-width: 770px;
+}
+
+.second {
+    padding-top: 22%;
+}
+
+.footer, a {
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
